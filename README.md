@@ -14,11 +14,13 @@
 
 
 <h3>웹소켓이 아닌 소켓통신을 하려면 java의 socket.io 라이브러리를 사용해야한다?</h3>
+
 1.java.io.*
 
 2.java.net.Socket
 
 <h3>tls를 적용하려면</h3>
+
 1.javax.net.ssl.KeyManagerFactory
 
 2.javax.net.ssl.SSLContext
