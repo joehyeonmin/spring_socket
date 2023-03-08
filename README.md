@@ -3,6 +3,7 @@
 <h2>웹소켓 vs 소켓</h2>
 
 1.웹소켓 - osi 7계층
+
 2.소켓 - TCP/IP 4계층 (네트워크 접속, 인터넷, 전송, 응용 계층)에서 응용계층 바로 아래에 소켓 계층을 만듦
 
 ===
@@ -14,12 +15,16 @@
 
 <h3>웹소켓이 아닌 소켓통신을 하려면 java의 socket.io 라이브러리를 사용해야한다?</h3>
 1.java.io.*
+
 2.java.net.Socket
 
 <h3>tls를 적용하려면</h3>
 1.javax.net.ssl.KeyManagerFactory
+
 2.javax.net.ssl.SSLContext
+
 3.javax.net.ssl.SSLServerSocket
+
 4.java.security.KeyStore
 사용?
 
